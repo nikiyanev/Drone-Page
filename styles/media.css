@@ -1,0 +1,84 @@
+@media screen and (max-width: 1200px) {
+    html {
+      font-size: 50%;
+    }
+
+    #logo {
+      flex: 1;
+    }
+
+    nav ul li {
+        margin-left: 5rem;
+    }
+
+    /* .box {
+      grid-template-columns: 10% 1fr 10%;
+    } */
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.box h2, .info {
+  margin: 0 15%;
+  text-align: center;
+}
+
+.drone-img {
+  width: 80%;
+  margin: 2rem 0;
+}
+
+.portfolio {
+  align-items: center;
+}
+
+.portfolio h2 {
+  margin-top: 5rem;
+  align-self: center;
+}
+
+.cards {
+  flex-direction: column;
+  width: 60%;
+}
+
+.card {
+  margin: 5rem 0rem;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 100%;
+  }
+
+  .trailer iframe {
+    max-width: 70%;
+    max-height: 71%;
+    align-self: center;
+    border-radius: 10%;
+  }
+
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+  }
+
+  .trailer h2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .circle {
+    width: 90%;
+  }
+
+  .wave {
+    bottom: 43%;
+  }
+
+  footer h1 {
+    flex: 1;
+  }

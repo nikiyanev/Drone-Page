@@ -1,0 +1,48 @@
+.drone-img { 
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+    /* background-image: url("../images/3.jpg");
+    background-size: cover; */
+  }
+
+  .box {
+    display: grid;
+    min-height: 90vh;
+    grid-template-columns: 5% repeat(3, minmax(5rem, 1fr)) 5%;
+    grid-template-rows: 1fr, 2fr, 1fr;
+  }
+
+  .info {
+   grid-column: 4/5;
+   grid-row: 3/1;
+   margin-top: 2rem;
+  }
+
+  .read-more {
+    grid-column: 2/5;
+    font-size: 2.5rem;
+    background: transparent;
+    color: white;
+    width: 20rem;
+    justify-self: center;
+    padding: 1rem 0rem;
+    margin: 5rem 0rem;
+    align-self: center;
+    /* border: 1px solid #CA141D; */
+    border-radius: 2rem;
+    box-shadow: 6px 5px 10px -4px #CA141D;
+  }
+
+  .read-more:hover {
+    background: white;
+    color:  #CA141D;
+    cursor: pointer;
+  }
+
+  .info h3 {
+    padding-bottom: 2.5rem;
+  }
