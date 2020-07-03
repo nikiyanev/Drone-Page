@@ -1,0 +1,52 @@
+.nav-container {
+    background: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  nav {
+    width: 80%;
+    margin: auto;
+    min-height: 10vh;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    list-style: none;
+  }
+
+  #logo {
+    flex: 3;
+    position: relative;
+  }
+
+  #logo::after {
+    content: "";
+    position: absolute;
+    top: 0.2rem;
+    left: 0;
+    width: 12.5rem;
+    height: 4.8rem;
+    background:#CA141D;
+    border-radius: 2rem;
+    transform: translate(-10%, -20%);
+    mix-blend-mode: screen;
+  }
+
+  .nav-btn {
+    background: #CA141D;
+    padding: 1rem, 2rem;
+    border-radius: 2rem;
+  }
+
+  .nav-btn:hover {
+    background: white;
+    color:  #CA141D;
+  }
