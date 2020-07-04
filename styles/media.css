@@ -54,8 +54,8 @@
   }
 
   .trailer iframe {
-    max-width: 70%;
-    max-height: 71%;
+    max-width: 90%;
+    max-height: 90%;
     align-self: center;
     border-radius: 10%;
   }
@@ -64,15 +64,18 @@
     display: flex;
     justify-content: center;
     box-shadow: none;
+    width: 100%;
   }
 
   .trailer h2 {
     margin: 0 auto;
-    text-align: center;
+    text-align: center;   
   }
 
   .circle {
     width: 90%;
+    height: 80%;
+    z-index: -1;
   }
 
   .wave {
@@ -81,4 +84,10 @@
 
   footer h1 {
     flex: 1;
+  }
+
+  @media screen and (max-width: 450px) {
+    .trailer iframe {
+      max-height: 70%;
+    }
   }
