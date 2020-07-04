@@ -21,7 +21,7 @@
 
 .modal {
     position: relative;
-    background-color: #212121;
+    background-color: #413d3d;
     width: 70%;
     height: 70%;
     display: flex;
@@ -29,6 +29,11 @@
     align-items: center;
     border-radius: 2.5rem;
     z-index: 1;
+}
+
+.modal h3 {
+    font-family: 'Lobster', cursive;
+    margin: 3rem 0;
 }
 
 .modal-close {

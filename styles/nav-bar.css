@@ -3,6 +3,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    box-shadow: 6px 5px 10px -4px #CA141D;
   }
 
   nav {
@@ -44,6 +45,7 @@
     background: #CA141D;
     padding: 1rem, 2rem;
     border-radius: 2rem;
+    border: solid;
   }
 
   .nav-btn:hover {
