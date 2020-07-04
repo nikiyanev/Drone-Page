@@ -53,6 +53,13 @@ html {
     background: radial-gradient(#525252, #131313);
   }
 
+  .btn {
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    transition: background-color 0.8s;
+  }
+
+
  
   /* nav a::after {
     content: '';
