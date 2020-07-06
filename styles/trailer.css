@@ -26,7 +26,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    box-shadow: 6px 5px 10px -4px black;
+    box-shadow: 5px 5px 10px -4px black;
   }
 
   .iframe-container iframe {

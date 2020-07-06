@@ -45,6 +45,9 @@
     padding: 1rem, 2rem;
     border-radius: 2rem;
     border: solid;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    transition: background-color 0.6s;
   }
 
   .nav-btn:hover {
