@@ -11,6 +11,11 @@
         margin-left: 5rem;
     }
 
+    .nav-btn {
+      padding: 4vh 0;
+      margin-left: 1rem;
+    }
+
     /* .box {
       grid-template-columns: 10% 1fr 10%;
     } */
@@ -49,6 +54,11 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  nav ul li {
+    margin-left: 0;
+}
+
   .cards {
     width: 100%;
   }
