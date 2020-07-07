@@ -2,6 +2,7 @@
     background: black;
     position: sticky;
     top: 0;
+    border-bottom: 2px solid #424242;
     z-index: 2;
   }
 
@@ -9,7 +10,7 @@
     width: 80%;
     margin: auto;
     min-height: 10vh;
-    padding: 3rem 0;
+    /* padding: 3rem 0; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,9 +19,47 @@
   nav ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex: 1;
     list-style: none;
+    height: 10vh;
   }
+
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 2rem;
+  }
+
+.nav-btn {
+  padding: 3.6vh 0;
+  margin-left: 2rem;
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  display: block;
+  overflow: hidden;
+  transition:  0.7s all;
+}
+
+.nav-btn:before {
+  content: "";
+  width:  10rem;
+  position:  absolute;
+  border-bottom: 0.4rem solid;
+  bottom: 0;
+  color: #CA141D;
+  right: 30rem;
+  transition: 0.7s all;
+}
+
+.nav-btn:hover:before {
+  right: 0;
+}
+
+.nav-btn:hover {
+  color: #CA141D;
+}
 
   #logo {
     flex: 3;
@@ -40,17 +79,3 @@
     mix-blend-mode: screen;
   }
 
-  .nav-btn {
-    background: #CA141D;
-    padding: 1rem, 2rem;
-    border-radius: 2rem;
-    border: solid;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    transition: background-color 0.6s;
-  }
-
-  .nav-btn:hover {
-    background: white;
-    color:  #CA141D;
-  }
