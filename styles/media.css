@@ -1,3 +1,16 @@
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+}
+
+@keyframes slideTop {
+  from {
+    margin-top: 50%;
+  }
+}
+
+
 @media screen and (max-width: 1200px) {
     html {
       font-size: 50%;
@@ -84,7 +97,7 @@
 
   .circle {
     width: 90%;
-    height: 80%;
+    height: 70%;
     z-index: -1;
   }
 

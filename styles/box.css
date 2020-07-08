@@ -7,6 +7,11 @@
     justify-self: center;
     /* background-image: url("../images/3.jpg");
     background-size: cover; */
+    animation: slideTop 0.9s;
+  }
+
+  .box h2 {
+    animation: fade 2s;
   }
 
   .box {
@@ -20,6 +25,7 @@
    grid-column: 4/5;
    grid-row: 3/1;
    margin-top: 2rem;
+   animation: fade 2s;
   }
 
   .read-more {
@@ -35,6 +41,7 @@
     /* border: 1px solid #CA141D; */
     border-radius: 2rem;
     box-shadow: 5px 5px 10px -4px #CA141D;
+    animation: slideTop 0.9s;
   }
 
   .read-more:hover {
@@ -46,3 +53,5 @@
   .info h3 {
     padding-bottom: 2.5rem;
   }
+
+
