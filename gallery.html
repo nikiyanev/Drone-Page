@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/nav-bar.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/media.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,8 +15,14 @@
         <div class="nav-container">
             <!-- NAVBAR -->
             <nav>
+                 <!-- HAMBURGER -->
+                 <div class="menu-btn">
+                    <div class="menu-btn__burger">
+                    </div>
+                </div>
+
                 <h1 id="logo">DanDrone</h1>
-                <ul>
+                <ul class="ul-nav">
                     <li><a href="index.html" class="nav-btn">Home</a></li>
                     <li><a href="gallery.html" class="nav-btn">Gallery</a></li>
                     <li><a href="#order" class="nav-btn">Order</a></li>
@@ -36,5 +43,7 @@
         </section>
     </main>
     <script src="scripts/galleryNav.js"></script>
+    <script src="scripts/Burger.js"></script>
+
 </body>
 </html>

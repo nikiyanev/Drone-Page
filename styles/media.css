@@ -68,6 +68,25 @@
 
 @media screen and (max-width: 600px) {
 
+#logo {
+  display: none;
+}
+
+.ul-nav {
+  flex-direction: column;
+  align-items: center;
+  /* HAMBURGER */
+  position: relative;
+}
+
+.menu-btn {
+  display: flex;
+}
+
+.ul-nav.hidden {
+  display: none;
+}
+
   nav ul li {
     margin-left: 0;
 }
