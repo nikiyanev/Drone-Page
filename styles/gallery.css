@@ -64,7 +64,11 @@
 }
 
 .image:hover img {
+<<<<<<< HEAD
     transform: scale(1.4) rotate(5deg);
+=======
+    transform: scale(1.3) rotate(10deg);
+>>>>>>> ed5f0b5977c226522abaf75747a16101491c4ccc
 }
 
 @media screen and (max-width: 960px) {
