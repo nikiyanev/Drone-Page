@@ -10,7 +10,7 @@
     align-items: center;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s opacity 0.6s;
+    transition: visibility 0s opacity 0.5s;
     transition: 200ms ease-in-out;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .modal h3 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
     margin: 3rem 0;
 }
 

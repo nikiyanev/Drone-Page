@@ -28,7 +28,7 @@
     list-style: none;
     color: white;
     cursor: pointer;
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.4rem;
     transition:  0.7s all;
 }
