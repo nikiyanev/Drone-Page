@@ -60,11 +60,11 @@
 
 .image img {
     transition: 0.4s;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
 }
 
 .image:hover img {
-    transform: scale(1.4) rotate(5deg);
+    transform: scale(1.4) rotate(10deg);
 }
 
 @media screen and (max-width: 960px) {
