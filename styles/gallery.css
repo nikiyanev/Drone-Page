@@ -41,6 +41,14 @@
     color: #CA141D;
 }
 
+/* VIDEOS-gallery */
+.videos-section {
+    min-height: 90vh;
+    background: darkolivegreen;
+    display: none;
+    font-size: 5rem;
+}
+
 /* PHOTOS-gallery */
 
 .photos-section {
