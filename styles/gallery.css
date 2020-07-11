@@ -67,6 +67,8 @@
     transform: scale(1.4) rotate(10deg);
 }
 
+/* SLIDESHOW-PHOTOS */
+
 @media screen and (max-width: 960px) {
     .gallery-section .image {
         flex: 33.33%;
