@@ -42,7 +42,7 @@
 }
 
 /* VIDEOS-gallery */
-.videos-section {
+.videos-container {
     min-height: 90vh;
     background: darkolivegreen;
     display: none;

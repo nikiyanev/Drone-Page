@@ -1,10 +1,15 @@
-let photosSection = document.querySelector('.block');
-let videosSection = document.querySelector('.videos-section');
+let photosSection = document.querySelector('.photos-container');
+let videosSection = document.querySelector('.videos-container');
+let photosBtn = document.getElementById('photos');
+let videosBtn = document.getElementById('videos');
+let galleryBtn = document.getElementById('gallery');
 
 function switchVisiblePhotos() {
   if(!photosSection) return;
 
   if (getComputedStyle(photosSection).display == 'none') {
+    videosBtn.style.color = 'white';
+    photosBtn.style.color = '#CA141D';
     photosSection.style.display = 'block';
     videosSection.style.display = 'none';
   } 
@@ -13,23 +18,28 @@ function switchVisiblePhotos() {
 function switchVisibleVideos() {
     if(!videosSection) return;
     
-    
-   if (getComputedStyle(videosSection).display == 'none') {
+     if (getComputedStyle(videosSection).display == 'none') {
+      photosBtn.style.color = 'white';
+      videosBtn.style.color = '#CA141D';
       photosSection.style.display = 'none';
       videosSection.style.display = 'block';
     }
 }
 
-  if (localStorage.key(0) === "isVideos" ) {
+  if (localStorage.key(0) === "isVideos") {
+    photosBtn.style.color = 'white';
+    videosBtn.style.color = '#CA141D';
     photosSection.style.display = 'none';
     videosSection.style.display = 'block';
 
     localStorage.removeItem("isVideos");
-  }
+  } 
 
-  
-document.getElementById('photos').addEventListener('click', switchVisiblePhotos);
-document.getElementById('videos').addEventListener('click', switchVisibleVideos);
+photosBtn.addEventListener('click', switchVisiblePhotos);
+videosBtn.addEventListener('click', switchVisibleVideos);
+galleryBtn.addEventListener('click', function() {
+  photosBtn.style.color = '#CA141D'; 
+});
 
 
 
