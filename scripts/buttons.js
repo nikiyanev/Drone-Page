@@ -33,13 +33,13 @@ function switchVisibleVideos() {
     videosSection.style.display = 'block';
 
     localStorage.removeItem("isVideos");
-  } 
+  } else {
+    photosBtn.style.color = '#CA141D';
+  }
 
 photosBtn.addEventListener('click', switchVisiblePhotos);
 videosBtn.addEventListener('click', switchVisibleVideos);
-galleryBtn.addEventListener('click', function() {
-  photosBtn.style.color = '#CA141D'; 
-});
+
 
 
 
