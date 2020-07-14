@@ -66,3 +66,34 @@
   .card img {
     object-fit: cover;
   }
+
+  @media screen and (max-width: 1200px) {
+    .portfolio {
+      align-items: center;
+    }
+    
+    .portfolio h2 {
+      margin-top: 5rem;
+      align-self: center;
+    }
+    
+    .cards {
+      flex-direction: column;
+      width: 60%;
+    }
+    
+    .card {
+      margin: 5rem 0rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    .cards {
+      width: 100%;
+    }
+
+    .wave {
+      bottom: 43%;
+    }
+  }

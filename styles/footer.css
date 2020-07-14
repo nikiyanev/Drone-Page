@@ -18,3 +18,10 @@ footer {
   footer h1 {
     flex: 3;
   }
+
+  @media screen and (max-width: 600px) {
+    footer h1 {
+      flex: 1;
+    }
+  
+  }

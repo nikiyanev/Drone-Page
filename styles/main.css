@@ -59,7 +59,10 @@ html {
     transition: background-color 0.8s;
   }
 
-
+  @media screen and (max-width: 1200px) {
+    html {
+      font-size: 50%;
+    }
  
   /* nav a::after {
     content: '';

@@ -132,3 +132,58 @@
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
+@media screen and (max-width: 1200px) {
+  #logo {
+    flex: 1;
+  }
+
+  nav ul li {
+      margin-left: 5rem;
+  }
+
+  .nav-btn {
+    padding: 3.85vh 0;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  #logo {
+    font-size: 3rem;
+    color: #CA141D;
+  }
+  
+  #logo:after {
+    display: none;
+  }
+  
+  nav {
+    width: 70%;
+  }
+
+  nav ul li {
+    margin-left: 0.5rem;
+  }
+}
+  @media screen and (max-width: 500px) {
+  .ul-nav {
+    flex-direction: column;
+    align-items: center;
+    /* HAMBURGER */
+    position: relative;
+  }
+  
+  .menu-btn {
+    display: flex;
+  }
+  
+  .ul-nav.hidden {
+    display: none;
+  }
+  
+    nav ul li {
+      margin-left: 0;
+  }
+  
+}
