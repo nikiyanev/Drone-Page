@@ -26,6 +26,7 @@
     animation: fade 2s;
     line-height: 7rem;
     padding-top: 2rem;
+    align-self: flex-start;
   }
 
   .box {

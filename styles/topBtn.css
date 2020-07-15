@@ -6,7 +6,7 @@
     font-size: 1.8rem;
     border: none;
     outline: none;
-    background-color: #CA141D;
+    background-color: rgb(202,20,29, 0.6);
     color: white;
     cursor: pointer;
     padding: 1.5rem;
@@ -14,5 +14,6 @@
 }
 
 #topBtn:hover{
-    background-color: salmon;
+    background-color: white;
+    color:  #CA141D;
 }
