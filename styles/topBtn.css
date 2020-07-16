@@ -11,9 +11,9 @@
     cursor: pointer;
     padding: 1.5rem;
     border-radius: 50%;
+    transition: all 0.25s;
 }
 
 #topBtn:hover{
-    background-color: white;
-    color:  #CA141D;
+    background-color: #CA141D;
 }
