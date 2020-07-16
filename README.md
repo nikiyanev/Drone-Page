@@ -1,4 +1,4 @@
 # Drone-Page
-Whit this repository i training my html, css and javascript skills, and make site for my friend
+Whit this repository i training my html, css and javascript skills, and build site for my best friend :)
 
 https://nikiyanev.github.io/Drone-Page/
