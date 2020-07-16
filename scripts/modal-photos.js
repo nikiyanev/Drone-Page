@@ -16,18 +16,18 @@ previews.forEach((preview) => {
     });
 });
 
-// modal.addEventListener("click", (e) => {
-//     if (e.target.classList.contains('modal-photos')) {
-//         modal.classList.remove("open");
-//         original.classList.remove("open");
-//         ('original').off('click');
-//     }
-// });
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.classList.remove("open");  
+modal.addEventListener("click", (e) => {
+    if (e.target.classList.contains('modal-photos')) {
+        modal.classList.remove("open");
+        original.classList.remove("open");
         ('original').off('click');
-        // original.classList.remove("open");
     }
-}
+});
+
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.classList.remove("open");  
+//         ('original').off('click');
+//         // original.classList.remove("open");
+//     }
+// }
