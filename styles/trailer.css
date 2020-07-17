@@ -35,7 +35,8 @@
   }
 
   .trailer h2 {
-    margin-left: 10rem;
+    width: 70%;
+    margin: 0 15%;
   }
   @media screen and (max-width: 1000px) {
 

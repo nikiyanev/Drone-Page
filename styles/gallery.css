@@ -58,6 +58,7 @@
 /* PHOTOS-gallery */
 
 .photos-section {
+    max-width: 192rem;
     width: 100%;
     padding: 5% 5%;
     display: flex;

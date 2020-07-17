@@ -6,16 +6,29 @@ let menuOpened = false;
 
 navbarUl.classList.add('hidden');
 
-hamburgerButton.addEventListener('click', (e) => {
+hamburgerButton.addEventListener('click', 
 
-  if (!menuOpened) {
-    hamburgerButton.classList.add('open');
-    navbarUl.style.height = '100%';
-    menuOpened = true;
-  } else {
-    hamburgerButton.classList.remove('open');
-    menuOpened = false;
-  }
+  function myFunction(e) {
+    var x = navbarUl;
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      x.style.height = "0";
+    } else {
+      x.style.display = "block";
+      setTimeout(() => {
+          x.style.height = "300px";    
+      }, 1)
+    }
+  
+  // if (!menuOpened) {
+  //   hamburgerButton.classList.add('open');
+  //   navbarUl.style.height = '100%';
+  //   menuOpened = true;
+  // } else {
+  //   hamburgerButton.classList.remove('open');
+  //   menuOpened = false;
+  // }
 
-  navbarUl.classList.toggle('hidden');
+  // navbarUl.classList.toggle('hidden');
 });
+
