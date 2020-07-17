@@ -95,7 +95,7 @@
   display: none;
   /* justify-content: center; */
   align-items: center;
-  width: 80px;
+  width: 4rem;
   height: 6vh;
   cursor: pointer;
   transition: all .5s ease-in-out;
@@ -179,7 +179,7 @@
     /* HAMBURGER */
     position: relative;
     height: 100%;
-    animation: slideBottom .3s ease-out;
+    animation: slideBottom .3s ease-in-out;
   }
   
   .menu-btn {

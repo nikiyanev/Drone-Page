@@ -146,10 +146,12 @@
 @media screen and (max-width: 480px) {
     .gallery-section .image {
         flex: 100%;
+        margin: 1rem 0;
     }    
 
     .full-img {
         width: 90%;
         height: 40%;
         }
+    
 }
