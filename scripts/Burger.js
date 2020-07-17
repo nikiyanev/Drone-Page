@@ -11,7 +11,7 @@ hamburgerButton.addEventListener('click', (e) => {
 
   if (!menuOpened) {
     hamburgerButton.classList.add('open');
-    navbarUl.style.height = '100%';
+    // navbarUl.style.height = '100%';
     menuOpened = true;
   } else {
     hamburgerButton.classList.remove('open');
