@@ -180,11 +180,14 @@
   
   .ul-nav.hidden {
     display: none;
-    transition: all .3s ease-out;
   }
   
     nav ul li {
       margin-left: 0;
+  }
+
+  nav ul li.opn {
+    transition: all .3s ease-out;
   }
   
 }
