@@ -8,7 +8,7 @@
   .circle {
     position: absolute;
     width: 50%;
-    height: 65%;
+    height: 75%;
     background: #CA141D;  
     border-radius: 50%;
     top: 50%;
@@ -20,7 +20,7 @@
     position: absolute;
     overflow: hidden;
     border-radius: 2rem;
-    height: 50%;
+    height: 60%;
     width: 50%;
     top: 50%;
     left: 50%;
@@ -37,6 +37,13 @@
   .trailer h2 {
     margin-left: 10rem;
   }
+  @media screen and (max-width: 1000px) {
+
+    .iframe-container {
+      height: 50%;
+      width: 60%;
+    }
+  }
 
   @media screen and (max-width: 600px) {
     .trailer iframe {
@@ -50,6 +57,7 @@
       display: flex;
       justify-content: center;
       box-shadow: none;
+      height: 50%;
       width: 100%;
     }
   
@@ -59,8 +67,8 @@
     }
   
     .circle {
-      width: 80%;
-      height: 60%;
+      width: 42rem;
+      height: 42rem;
       z-index: -1;
     }
   

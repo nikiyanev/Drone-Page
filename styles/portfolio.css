@@ -47,8 +47,9 @@
     margin: 2rem 0rem 1rem 0rem;
     font-size: 3rem;
     color: black;
-    width: 12rem;
+    width: 13rem;
     align-self: center;
+    text-align: center;
     border: 1px solid #CA141D;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px -4px #CA141D;
@@ -72,7 +73,7 @@
       align-items: center;
     }
     
-    .portfolio h2 {
+    .h2-cards {
       margin-top: 5rem;
       align-self: center;
     }
@@ -91,6 +92,10 @@
   @media screen and (max-width: 600px) {
     .cards {
       width: 100%;
+    }
+
+    .h2-cards {
+      margin-top: 0;
     }
 
     .wave {
