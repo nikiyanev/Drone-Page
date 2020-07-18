@@ -124,9 +124,11 @@
 @media screen and (max-width: 500px) {
     .contact-card {
         margin-top: 2.5rem;
+        height: 47rem;
     }
 
     .mapouter {
         margin-top: 0;
     }
+
 }
