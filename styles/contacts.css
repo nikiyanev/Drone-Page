@@ -74,6 +74,39 @@
     width: 100%;
 }
 
+.back-content span {
+    font-size: 2rem;
+}
+
+.back-content h3 {
+    font-size: 4rem;
+}
+
+.sm {
+    margin: 2rem 0;
+}
+
+.sm a img{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.sm a {
+    margin-bottom: 2rem;
+}
+.sm a:hover {
+    color: black;
+}
+
+.mapouter {
+    width: 100%;
+    height: 50%;
+    margin-top: 2rem;
+}
+
 .contact-card:hover > .front {
     transform: perspective(60rem) rotateY(-180deg);
 }
@@ -90,6 +123,6 @@
 
 @media screen and (max-width: 500px) {
     .contact-card {
-        margin-top: 3rem;
+        margin-top: 2.5rem;
     }
 }
