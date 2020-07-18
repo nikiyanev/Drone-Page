@@ -1,0 +1,95 @@
+/* ORDER-SECTION */
+.order-container {
+    width: 100%;
+    min-height: 100vh;
+    background:  #232323;
+    display: flex;
+    justify-content: center;
+}
+
+#order {
+    width: 75%;
+}
+
+/* CONTACTS-SECTION */
+.contacts-container {
+    width: 100%;
+    min-height: 80vh;
+    background: radial-gradient(#525252, #131313);
+    display: flex;
+    justify-content: center;
+}
+
+#contacts {
+    width: 75%;
+    position: relative;
+}
+
+.contact-card {
+    cursor: pointer;
+    width: 32rem;
+    height: 45rem;
+    align-self: center;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+.front img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+.front {
+    transform: perspective(60rem) rotateY(0deg);
+}
+
+.back {
+    background: #f1f1f1;
+    transform: perspective(60rem) rotateY(180deg);
+}
+
+.back-content {
+    color: #525252;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-card:hover > .front {
+    transform: perspective(60rem) rotateY(-180deg);
+}
+
+.contact-card:hover > .back {
+    transform: perspective(60rem) rotateY(0deg);
+}
+@media screen and (min-width: 1500px) {
+    .contact-card {
+        width: 42rem;
+        height: 53rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact-card {
+        margin-top: 3rem;
+    }
+}

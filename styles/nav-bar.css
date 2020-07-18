@@ -4,6 +4,12 @@
   }
 }
 
+@keyframes slideTop {
+  from {
+    margin-top: 50%;
+  }
+}
+
 .nav-container {
     background: black;
     position: sticky;
@@ -182,6 +188,14 @@
     animation: slideBottom .3s ease-in-out;
   }
   
+  .down {
+    animation: slideBottom .3s ease-in-out;
+  }
+
+  .upp {
+        transition: 0.5s all;
+    animation: slideTop .3s ease-out;
+  }
   .menu-btn {
     display: flex;
   }

@@ -33,7 +33,7 @@ function switchVisibleVideos() {
     videosSection.style.display = 'block';
 
     localStorage.removeItem("isVideos");
-  } else {
+   } else {
     photosBtn.style.color = '#CA141D';
   }
 

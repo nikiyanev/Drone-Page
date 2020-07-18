@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/nav-bar.css">
+    <link rel="stylesheet" href="styles/main.css">       
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/topBtn.css">
+    <link rel="stylesheet" href="styles/contacts.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <main>
+        <div class="nav-container">
+            <!-- NAVBAR -->
+            <nav>
+                 <!-- HAMBURGER -->
+                 <div class="menu-btn">
+                    <div class="menu-btn__burger">
+                    </div>
+                </div>
+
+                <h1 id="logo">DanDrone</h1>
+                <ul class="ul-nav">
+                    <li><a href="index.html" class="nav-btn">Home</a></li>
+                    <li><a href="gallery.html" class="nav-btn" id="gallery-">Gallery</a></li>
+                    <li><a href="contacts.html#order" class="nav-btn">Order</a></li>
+                    <li><a href="contacts.html#contacts" class="nav-btn">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ORDER -->
+        <div class="order-container">
+            <section id="order">
+                <h2>Order</h2>
+            </section>
+        </div>
+        <!-- CONTACTS -->
+        <div class="contacts-container">
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <div class="contact-card middle">
+                    <div class="front">
+                        <div class="arrow"><img src="images/icons/arrow.png" alt="" srcset=""></div>
+                        <img src="images/Dan-family.jpg" alt="">
+                    </div>
+                    <div class="back">
+                        <div class="back-content middle">
+                            <h3>DanDrone</h3>
+                        </div>                       
+                    </div>
+                </div>
+            </section>
+        </div>
+         <!-- FOOTER -->
+         <footer>
+            <h1>DanDrone 2020</h1>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/"><img src="images/icons/yt-logo.png" alt=""></a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://twitter.com"><img src="images/icons/twitter-logo.png" alt=""></a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://instagram.com"><img src="images/icons/instagram-logo.png" alt=""></a>
+                </li>
+            </ul>
+        </footer>
+    </main>
+    <!-- GO TO TOP BUTTON -->
+    <button id="topBtn" onclick="goToTop()" title="Go To Top">Top</button>
+
+    <script src="scripts/Burger.js"></script>
+    <script src="scripts/topButton.js"></script>
+</body>
+</html>
