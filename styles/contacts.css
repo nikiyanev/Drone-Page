@@ -125,4 +125,8 @@
     .contact-card {
         margin-top: 2.5rem;
     }
+
+    .mapouter {
+        margin-top: 0;
+    }
 }
