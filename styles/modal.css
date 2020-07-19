@@ -51,10 +51,22 @@
     padding-bottom: 2rem;
 }
 
+/* BIRTHDAY */
+.modal img {
+    width: 65%;
+    height: 65%;
+}
+
 @media screen and (max-width: 600px) {
     .modal {
         overflow: scroll;
         width: 80%;
       }
+
+      .modal img {
+        width: 75%;
+        height: 50%;
+    }
+    
 }
 
