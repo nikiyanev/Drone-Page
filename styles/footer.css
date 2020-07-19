@@ -19,6 +19,15 @@ footer {
     flex: 3;
   }
 
+  footer ul li img {
+    padding: 0.7rem;
+    border-radius: 35%;
+  }
+
+  footer ul li img:hover {
+    background: #CA141D;
+  }
+
   @media screen and (max-width: 600px) {
     footer h1 {
       flex: 1;
