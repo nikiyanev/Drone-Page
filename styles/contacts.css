@@ -46,6 +46,7 @@
     backface-visibility: hidden;
     position: absolute;
     transition: transform .6s linear;
+    box-shadow: 0px 6px 4px -3px black;
 }
 
 .front img {
@@ -122,8 +123,17 @@
 }
 @media screen and (min-width: 1500px) {
     .contact-card {
-        width: 42rem;
-        height: 53rem;
+        width: 45rem;
+        height: 58rem;
+    }
+
+    .arrow {
+        height: 4rem;
+    }
+
+    .mapouter {
+        margin-left: 14%;
+        margin-top: 20%;
     }
 }
 
@@ -134,7 +144,26 @@
     }
 
     .mapouter {
-        margin-top: 0;
+        margin-top: -1rem;
+    }
+    
+    #contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
 
+    #order {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #order h2 {
+        align-self: center;
+    }
+
+    #contacts h2 {
+        align-self: center;
+    }
 }

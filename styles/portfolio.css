@@ -45,7 +45,7 @@
 
   .card a {
     margin: 2rem 0rem 1rem 0rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
     width: 13rem;
     align-self: center;
@@ -66,6 +66,16 @@
 
   .card img {
     object-fit: cover;
+  }
+  @media screen and (min-width: 1500px) {
+    .card a {
+      margin: 4.5rem 0rem 1.5rem 0rem;
+      font-size: 3rem;
+    }
+
+    .card p {
+      font-size: 3.5rem;
+    }
   }
 
   @media screen and (max-width: 1200px) {

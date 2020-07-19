@@ -48,7 +48,7 @@
   margin-left: 2rem;
   text-decoration: none;
   position: relative;
-  font-weight: 700;
+  font-weight: 600;
   display: block;
   overflow: hidden;
   transition:  0.7s all;
@@ -176,6 +176,11 @@
 
   nav ul li {
     margin-left: 0.5rem;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .nav-btn {
+    padding: 4vh 0;
   }
 }
   @media screen and (max-width: 500px) {

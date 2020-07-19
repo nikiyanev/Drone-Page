@@ -69,6 +69,23 @@
   .info h3 {
     padding-bottom: 2.5rem;
   }
+@media screen and (min-width: 1500px) {
+  .read-more {
+    font-size: 3rem;
+  }
+
+  .box h2 {
+    font-size: 8rem;
+  }
+
+  .box h3 {
+    font-size: 4.5rem;
+  }
+
+  .box p {
+    font-size: 3.3rem;
+  }
+}
 
   @media screen and (max-width: 1200px) {
     
