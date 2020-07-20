@@ -218,8 +218,23 @@
         height: 550px;
     }
 }
+@media screen and (max-width: 950px) {
+    .cards-order {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 90%;
+    }
+
+}
 
 @media screen and (max-width: 500px) {
+    .order-container {
+        min-height: 120vh;
+    }
+    .card-order {
+        width: 90%;
+        height: 40rem;
+    }
     .contact-card {
         margin-top: 2.5rem;
         height: 47rem;
