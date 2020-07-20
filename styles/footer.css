@@ -26,6 +26,7 @@ footer {
 
   footer ul li img:hover {
     background: #CA141D;
+    border-top: 2px solid white;
   }
 
   @media screen and (max-width: 600px) {

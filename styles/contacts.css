@@ -1,3 +1,8 @@
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+}
 /* ORDER-SECTION */
 .order-container {
     width: 100%;
@@ -10,6 +15,78 @@
 #order {
     width: 75%;
 }
+
+.cards-order {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    animation: fade 2s;
+}
+
+.card-order {
+    background: white;
+    align-self: center;    
+    width: 330px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px -4px black;
+  }
+
+  .h3-container {
+      width: 100%;
+      height: 30%;
+      background: #2b53da;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+  .cardOne {
+      background: #CA141D;
+  }
+
+  .card-order ul {
+      list-style: none;
+      width: 80%;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 2rem;
+  }
+
+  .card-order ul li {
+      color: black;
+      border-bottom: 1px solid #969696;
+      padding: 1rem 0;
+  }
+
+  .btn-order {
+    margin: 2rem 0rem 1rem 0rem;
+    font-size: 2.5rem;
+    color: black;
+    width: 18rem;
+    padding: 0.4rem;
+    align-self: center;
+    text-align: center;
+    border: 1px solid #525252;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px -4px #525252;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    transition: background-color 0.8s;
+  }
+
+  .btn-order:hover {
+    background-color: #525252;
+    color: white;
+    cursor: pointer;
+  }
 
 /* CONTACTS-SECTION */
 .contacts-container {
@@ -123,8 +200,8 @@
 }
 @media screen and (min-width: 1500px) {
     .contact-card {
-        width: 45rem;
-        height: 58rem;
+        width: 47rem;
+        height: 61rem;
     }
 
     .arrow {
@@ -134,6 +211,11 @@
     .mapouter {
         margin-left: 14%;
         margin-top: 20%;
+    }
+
+    .card-order {
+        width: 400px;
+        height: 550px;
     }
 }
 
