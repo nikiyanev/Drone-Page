@@ -225,6 +225,10 @@
         height: 90%;
     }
 
+    .card-order {
+        margin: 5rem 0rem;
+      }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -233,7 +237,7 @@
     }
     .card-order {
         width: 90%;
-        height: 40rem;
+        height: 44rem;
     }
     .contact-card {
         margin-top: 2.5rem;
