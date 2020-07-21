@@ -51,13 +51,15 @@
     align-self: center;
     text-align: center;
     border: 1px solid #CA141D;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     box-shadow: 5px 5px 10px -4px #CA141D;
   }
 
   .card a:hover {
     background-color: #CA141D;
+    transform: rotateX(15deg);
     color: white;
+    box-shadow: 0 12px 12px #CA141D;
   }
 
   .card p {
