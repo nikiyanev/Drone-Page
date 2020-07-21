@@ -35,19 +35,25 @@
     overflow: hidden;
     border-radius: 2rem;
     box-shadow: 5px 5px 10px -4px black;
+    transition: .3s linear;
   }
 
-  .h3-container {
-      width: 100%;
-      height: 30%;
-      background: #2b53da;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+  .card-order-header {
+      background-color: #CA141D;
+      text-align: center;
+      align-self: center;
+      width: 50%;
+      padding: 1.2rem 0;
+      border-radius: 0 0 2rem 2rem;
+      transition: .4s linear;
   }
 
-  .cardOne {
-      background: #CA141D;
+  .card-order:hover .card-order-header {
+      box-shadow: 0 0 0 24rem #CA141D;
+  }
+
+  .card-order:hover, .card-order:hover li{
+      color: white;
   }
 
   .card-order ul {
@@ -57,7 +63,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: 2rem;
+      margin-top: 3rem;
   }
 
   .card-order ul li {
@@ -67,25 +73,25 @@
   }
 
   .btn-order {
-    margin: 2rem 0rem 1rem 0rem;
+    margin-top: 7rem;
     font-size: 2.5rem;
     color: black;
+    background-color: #CA141D;
     width: 18rem;
-    padding: 0.4rem;
+    padding: 1rem;
     align-self: center;
     text-align: center;
-    border: 1px solid #525252;
-    border-radius: 2rem;
-    box-shadow: 5px 5px 10px -4px #525252;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    transition: background-color 0.8s;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
   }
 
   .btn-order:hover {
-    background-color: #525252;
+    transform: rotateX(15deg);
     color: white;
-    cursor: pointer;
+    box-shadow: 0 12px 12px #CA141D;
   }
 
 /* CONTACTS-SECTION */
