@@ -20,13 +20,14 @@ footer {
   }
 
   footer ul li img {
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     border-radius: 35%;
   }
 
   footer ul li img:hover {
     background: #CA141D;
-    border-top: 1px solid white;
+    box-shadow: 4px 4px 15px #CA141D,
+                -4px -4px 15px #CA141D;
   }
 
   @media screen and (max-width: 600px) {
