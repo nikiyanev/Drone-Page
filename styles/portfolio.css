@@ -78,6 +78,12 @@
     .card p {
       font-size: 3.5rem;
     }
+
+    .card {
+      height: 60rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
   }
 
   @media screen and (max-width: 1200px) {
@@ -100,17 +106,14 @@
     }
     
   }
-  @media screen and (min-width: 1500px) {
-    .card {
-      height: 60rem;
-      margin-left: 10rem;
-      margin-right: 10rem;
-    }
-  }
 
   @media screen and (max-width: 600px) {
     .cards {
       width: 100%;
+    }
+
+    .cards img {
+      height: 30rem;
     }
 
     .h2-cards {
