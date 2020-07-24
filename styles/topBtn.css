@@ -17,3 +17,9 @@
 #topBtn:hover{
     background-color: #CA141D;
 }
+
+@media screen and (max-width: 960px) {
+    #topBtn {
+        bottom: 6rem;
+    }
+}
