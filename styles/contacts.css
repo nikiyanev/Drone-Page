@@ -75,7 +75,7 @@
   .btn-order {
     margin-top: 7rem;
     font-size: 2.5rem;
-    color: black;
+    color: white;
     background-color: #CA141D;
     width: 18rem;
     padding: 1rem;
@@ -90,7 +90,6 @@
 
   .btn-order:hover {
     transform: rotateX(15deg);
-    color: white;
     box-shadow: 0 12px 12px #CA141D;
   }
 
@@ -256,7 +255,7 @@
     }
     .card-order {
         width: 90%;
-        height: 44rem;
+        height: 46rem;
     }
     .contact-card {
         margin-top: 2.5rem;
