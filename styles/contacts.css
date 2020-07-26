@@ -10,11 +10,12 @@
     background:  #232323;
     display: flex;
     justify-content: center;
+    background-image: url("../images/splash.png");
+    background-size: cover;
 }
 
 #order {
     width: 75%;
-    /* background-image: url("../images/splash.png"); */
 }
 
 .cards-order {
