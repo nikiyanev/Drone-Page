@@ -1,8 +1,8 @@
-@keyframes fade {
-	from {
-		opacity: 0;
-	}
-}
+@keyframes slideTop {
+    from {
+      margin-top: 50%;
+    }
+  }
 /* ORDER-SECTION */
 .order-container {
     width: 100%;
@@ -23,7 +23,7 @@
     justify-content: space-around;
     width: 100%;
     height: 80%;
-    animation: fade 2s;
+    animation: slideTop 2s;
 }
 
 .card-order {
