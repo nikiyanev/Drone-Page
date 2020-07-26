@@ -44,14 +44,14 @@
   }
 
   .card a {
-    margin: 2rem 0rem 1rem 0rem;
+    margin-top: 3rem;
     font-size: 2.5rem;
     color: black;
     width: 13rem;
     align-self: center;
     text-align: center;
     border: 1px solid #CA141D;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     box-shadow: 5px 5px 10px -4px #CA141D;
   }
 

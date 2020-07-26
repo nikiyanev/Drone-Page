@@ -2,6 +2,7 @@
 const navbar = document.querySelector('nav');
 const hamburgerButton = document.querySelector('.menu-btn');
 const navbarUl = document.querySelector('.ul-nav');
+const navContainer = document.querySelector(".nav-container");
 let menuOpened = false;
 
 navbarUl.classList.add('hidden');
@@ -20,3 +21,4 @@ hamburgerButton.addEventListener('click', (e) => {
 
   navbarUl.classList.toggle('hidden');
 });
+

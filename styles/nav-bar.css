@@ -190,17 +190,17 @@
     /* HAMBURGER */
     position: relative;
     height: 100%;
-    animation: slideBottom .3s ease-in-out;
+    /* animation: slideBottom .3s ease-in-out; */ 
   }
   
-  .down {
+  /* .down {
     animation: slideBottom .3s ease-in-out;
   }
 
   .upp {
         transition: 0.5s all;
     animation: slideTop .3s ease-out;
-  }
+  } */
   .menu-btn {
     display: flex;
   }
