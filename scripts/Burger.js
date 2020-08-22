@@ -8,11 +8,12 @@ let menuOpened = false;
 navbarUl.classList.add('hidden');
 
 hamburgerButton.addEventListener('click', (e) => {
-
+  
   if (!menuOpened) {
     hamburgerButton.classList.add('open');
     // navbarUl.style.height = '100%';
     menuOpened = true;
+
   } else {
     hamburgerButton.classList.remove('open');
     // navbarUl.style.height = '0%';
@@ -21,4 +22,3 @@ hamburgerButton.addEventListener('click', (e) => {
 
   navbarUl.classList.toggle('hidden');
 });
-
