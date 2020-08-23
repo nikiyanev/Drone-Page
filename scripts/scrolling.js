@@ -9,7 +9,11 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-if (width < 500) {
+    // scroll MAIN
+    sr.reveal(".box h2", {delay: 200})
+    sr.reveal(".drone-img", {delay: 400, rotate: {y: 180}})
+    sr.reveal(".info", {delay: 200})
+    sr.reveal(".read-more", { distance: '0px', opacity: 0, delay: 500})
     // scroll PORTFOLIO
     sr.reveal(".h2-cards", {})
     sr.reveal(".card", {interval: 200})
@@ -18,4 +22,13 @@ if (width < 500) {
     sr.reveal(".trailer h2", {})
     sr.reveal(".circle", {delay: 200})
     sr.reveal(".iframe-container", {delay: 400})
-}
+
+    // scroll GALLERY
+    if (width < 500) {
+        sr.reveal(".image", {interval: 200})
+    }
+    // scroll CONTACTS
+    sr.reveal("#order h2", {})
+    sr.reveal(".card-order", {interval: 400})
+    sr.reveal(".contacts h2", {})
+    sr.reveal(".contact-card", {delay: 200})
