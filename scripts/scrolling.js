@@ -1,7 +1,6 @@
 var width = window.innerWidth
 || document.documentElement.clientWidth
 || document.body.clientWidth;
-var videoContainer = document.querySelector(".videos-container");
 
 // SCROLL REVEAL - just trying this library
 const sr = ScrollReveal({
@@ -11,30 +10,27 @@ const sr = ScrollReveal({
     reset: true,
 });
 
-    // scroll MAIN
-    sr.reveal(".box h2", {delay: 200})
-    sr.reveal(".drone-img", {delay: 400, rotate: {y: 180}})
-    sr.reveal(".info", {delay: 200})
-    sr.reveal(".read-more", { distance: '0px', opacity: 0, delay: 400})
-    // scroll PORTFOLIO
-    sr.reveal(".h2-cards", {})
-    sr.reveal(".card", {interval: 200})
-
-    // scroll TRAILER
-    sr.reveal(".trailer h2", {})
-    sr.reveal(".circle", {delay: 200})
-    sr.reveal(".iframe-container", {delay: 400})
-
-    // scroll GALLERY
     if (width < 500) {
+        // scroll MAIN
+        sr.reveal(".box h2", {delay: 200})
+        sr.reveal(".drone-img", {delay: 400, rotate: {y: 180}})
+        sr.reveal(".info", {delay: 200})
+        sr.reveal(".read-more", { distance: '0px', opacity: 0, delay: 300})
+        // scroll PORTFOLIO
+        sr.reveal(".h2-cards", {})
+        sr.reveal(".card", {interval: 200})
+
+        // scroll TRAILER
+        sr.reveal(".trailer h2", {})
+        sr.reveal(".circle", {delay: 200})
+        sr.reveal(".iframe-container", {delay: 400})
+
+        // scroll GALLERY
         sr.reveal(".image", {interval: 200})
+
+        // scroll CONTACTS
+        sr.reveal("#order h2", {})
+        sr.reveal(".card-order", {interval: 400})
+        sr.reveal(".contacts h2", {})
+        sr.reveal(".contact-card", {delay: 200})
     }
-    if (videoContainer.style.display == "block") {  // this shit don't work :(
-        sr.reveal(".video-iframe", {})              
-        sr.reveal(".contentVideo", {delay: 200})
-    }
-    // scroll CONTACTS
-    sr.reveal("#order h2", {})
-    sr.reveal(".card-order", {interval: 400})
-    sr.reveal(".contacts h2", {})
-    sr.reveal(".contact-card", {delay: 200})
