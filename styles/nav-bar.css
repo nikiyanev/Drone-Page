@@ -28,6 +28,10 @@
     align-items: center;
   }
 
+  #home {
+    flex: 1;
+  }
+
   nav ul {
     display: flex;
     justify-content: space-between;
@@ -74,7 +78,7 @@
 }
 
   #logo {
-    flex: 3;
+    /* flex: 3; */
     position: relative;
   }
 

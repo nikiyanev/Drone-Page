@@ -26,11 +26,11 @@ const sr = ScrollReveal({
         sr.reveal(".iframe-container", {delay: 400})
 
         // scroll GALLERY
-        sr.reveal(".image", {interval: 200})
+        sr.reveal(".image", {interval: 150})
 
         // scroll CONTACTS
         sr.reveal("#order h2", {})
         sr.reveal(".card-order", {interval: 400})
-        sr.reveal(".contacts h2", {})
+        sr.reveal("#contacts h2", {})
         sr.reveal(".contact-card", {delay: 200})
     }
