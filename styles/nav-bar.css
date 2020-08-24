@@ -29,14 +29,14 @@
   }
 
   #home {
-    flex: 1;
+    /* flex: 1; */
   }
 
   nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    /* flex: 1; */
     list-style: none;
     height: 10vh;
   }
